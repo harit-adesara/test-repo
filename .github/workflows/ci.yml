@@ -20,4 +20,4 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run tests (FAILURE TEST)
-        run: python -c "assert 2 + 2 == 18"
+        run: python -c "assert 2 + 2 == 33"
