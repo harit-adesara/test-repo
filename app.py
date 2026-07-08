@@ -1,9 +1,10 @@
 def calculate_area(radius):
+    import math
     return math.pi * radius ** 2
 
 
 def print_result():
-    area = calculate_areaa(5)
+    area = calculate_area(5)
     print(f"Area: {area}")
 
 
