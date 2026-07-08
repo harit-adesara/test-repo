@@ -1,10 +1,10 @@
-from database import getUser
+from database import get_user
 from auth import authenticate
 
 
 def load_user(database):
     if authenticate():
-        return getUser(database, 1)
+        return get_user(database, 1)
     return None
 
 
