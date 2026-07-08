@@ -85,7 +85,7 @@ def report():
     emp = create_employee("Harit", 50000)
     print_employee(emp)
 
-    cfg = readConfig()
+    cfg = read_config()
     print(cfg)
 
 
