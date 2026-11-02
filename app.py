@@ -1,6 +1,6 @@
 from database import connect_database
 from utils import load_user
-from logger import logger
+from logger import log as logger
 
 def main():
     logger("Application Started")
