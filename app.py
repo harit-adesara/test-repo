@@ -1,9 +1,9 @@
 from database import connect_database
 from utils import load_user
-from logger import log
+from logger import logger
 
 def main():
-    log("Application Started")
+    logger("Application Started")
 
     conn = connect_database()
     print("Database Connected")
@@ -11,7 +11,7 @@ def main():
     user = load_user(conn)
     print(user)
 
-    log("Application Finished")
+    logger("Application Finished")
 
 
 if __name__ == "__main__":
