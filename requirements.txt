@@ -1,1 +1,1 @@
-xyz
+# Removed non-existent dependency 'xyz'
