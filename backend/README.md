@@ -7,4 +7,3 @@ Flask + SQLite backend: auth (token based), users, tasks (CRUD, filtering, pagin
     pytest -v
 
 CI runs on GitHub Actions: `.github/workflows/ci.yml` (install -> lint -> test).
-test
